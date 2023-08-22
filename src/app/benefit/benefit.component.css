@@ -1,0 +1,50 @@
+.support{
+    background-color: white;
+}
+.benefits{
+    background-color: #F9F9F9;
+}
+.title{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 26px;
+    color: #19232d;
+}
+.heading{
+    color: #7a7a7a;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 43px;
+}
+.description{
+    color: #4d5053;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.details{
+    margin-top: 25px;
+    padding-left: 40px;
+    color: #4d5053;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+
+
+
+
+/* Default styling for larger screens */
+.text-align-center {
+    text-align: left; /* or center as needed */
+}
+
+/* Media query for small screens */
+@media (max-width: 767px) {
+    .text-align-center {
+        text-align: center;
+    }
+}
+

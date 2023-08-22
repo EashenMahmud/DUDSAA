@@ -1,0 +1,101 @@
+/* First Header */
+.first {
+    background-color: rgba(255, 255, 255, 0.9);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Second Header */
+  .nav2 {
+    background-color: white;
+    position: relative;
+    z-index: 1000; /* Ensure it's above the content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .nav2.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: translateY(0%);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: transform 0.10s ease, box-shadow 0.10s ease;
+  }
+  
+  .navbar-toggler {
+      border: none;
+      background-color: transparent;
+    }
+    .navbar-toggler:focus {
+      outline: none; /* Remove the outline or border when focused */
+      box-shadow: none; /* Remove any box shadow when focused */
+    }
+    .content-container {
+      padding-top: 70px; 
+    }
+    .logo{
+      width: 75%;
+    }
+    .navbar-nav .nav-link {
+      color: black;
+      font-weight: 500;
+    }
+    .navbar {
+    background-color: #FFFFFF;
+  }
+  .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+  font-size: 17px;
+  line-height: 27px;
+  }
+  .navbar-nav .nav-link:hover {
+    color: white;
+  }
+  .nav2{
+    background-color: #01AEEF;
+  }
+  .login button{
+    background-color: #1DAED9;
+  }
+  .login button:hover{
+    background-color: #1DAED9;
+  }
+  /* .logo{
+    max-width: 400px;
+    height: auto;
+  } */
+  .nav-item img{
+    width: 40px;
+    height: 40px;
+  }
+  .certified{
+    position: relative;
+    left: 72px;}
+  
+  .dropdown-menu {
+    border: none; 
+    box-shadow: 0 0 10px rgba(8, 1, 1, 0.1); 
+    position: absolute;
+    background-color: #01AEEF;
+  }
+  /* .dropdown-menu-right {
+    left: 12rem;
+  } */
+  .dropdown-item {
+    padding: 8px 12px; 
+    color: #ffffff;
+    font-size: 14px; 
+    font-weight: 600;
+  }
+  .dropdown-item:hover,
+  .dropdown-item.active {
+    color: #01AEEF;
+  }
+  .dropdown-item + .dropdown-item {
+    margin-top: 2px;
+  }

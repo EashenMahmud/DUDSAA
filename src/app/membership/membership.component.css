@@ -1,0 +1,77 @@
+/* styles.css */
+
+.table-container {
+    width: 100%;
+    background-color: #f5f5f5;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+
+.heading {
+    background-color: #494F76;
+    color: #fff;
+    text-align: center;
+    line-height: 22px;
+}
+.item{
+    padding: 20px;
+    font-weight: 600;
+    font-size: 17px;
+}
+.item2{
+    padding: 20px;
+}
+
+.data {
+    padding: 15px;
+    text-align: center;
+    background-color: #CFD0D5;
+}
+
+.data2 {
+    text-align: center;
+    background-color: #D7D7E0;
+    padding: 10px;
+}
+.price{
+    background-color: white;
+}
+.general{
+    background-color: #F7F7F7;
+}
+.year{
+    line-height: 0px;
+    margin-bottom: 60px;
+}
+.small-hr {
+    display: flex;
+    justify-content: center;
+    height: 1.5px; /* Set the desired height */
+    background-color: #a19f9f; /* Set the desired color */
+    border: none; /* Remove the default border */
+    margin: 10px 0; /* Adjust margin as needed */
+    width: 50%;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    text-align: center;
+}
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+    .table-container {
+        display: block;
+    }
+
+    .data, .data2 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .item2 {
+        padding: 20px;
+    }
+    .item {
+        padding: 20px;
+    }
+}
